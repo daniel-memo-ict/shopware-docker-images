@@ -2,7 +2,7 @@ images:
   -
     name: Opensearch Dashboard
     image: 
-      - ghcr.io/shyim/shopware-docker/opensearchproject/dashboard
+      - ghcr.io/daniel-memo-ict/shopware-docker/opensearchproject/dashboard
     buildTags: [ 'opensearch' ]
     dockerFile: opensearch/dashboard/Dockerfile
     context: opensearch/dashboard

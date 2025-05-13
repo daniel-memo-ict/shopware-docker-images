@@ -2,7 +2,7 @@ images:
   -
     name: Adminer
     image: 
-       - ghcr.io/shyim/shopware-docker/adminer
+       - ghcr.io/daniel-memo-ict/shopware-docker/adminer
     buildTags: [ 'adminer' ]
     dockerFile: adminer/Dockerfile
     context: adminer

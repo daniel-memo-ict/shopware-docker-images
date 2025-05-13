@@ -2,7 +2,7 @@ images:
   -
     name: Cypress Backup
     image:
-       - ghcr.io/shyim/shopware-docker/cypress-backup-proxy
+       - ghcr.io/daniel-memo-ict/shopware-docker/cypress-backup-proxy
     buildTags: [ 'cypress' ]
     dockerFile: cypress-backup-proxy/Dockerfile
     context: cypress-backup-proxy

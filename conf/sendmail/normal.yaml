@@ -2,7 +2,7 @@ images:
   -
     name: Sendmail
     image: 
-       - ghcr.io/shyim/shopware-docker/sendmail
+       - ghcr.io/daniel-memo-ict/shopware-docker/sendmail
     buildTags: [ 'sendmail' ]
     dockerFile: sendmail/Dockerfile
     context: sendmail

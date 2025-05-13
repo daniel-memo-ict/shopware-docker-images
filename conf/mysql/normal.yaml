@@ -1,7 +1,7 @@
 images:
   -
     image: 
-      - ghcr.io/shyim/shopware-docker/mysql
+      - ghcr.io/daniel-memo-ict/shopware-docker/mysql
     buildTags: [ 'mysql' ]
     dockerFile: mysql/Dockerfile
     context: mysql 

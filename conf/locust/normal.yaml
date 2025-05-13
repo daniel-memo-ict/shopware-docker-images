@@ -2,7 +2,7 @@ images:
   -
     name: Locust
     image: 
-       - ghcr.io/shyim/shopware-docker/locust
+       - ghcr.io/daniel-memo-ict/shopware-docker/locust
     buildTags: [ 'locust' ]
     dockerFile: locust/Dockerfile
     context: locust

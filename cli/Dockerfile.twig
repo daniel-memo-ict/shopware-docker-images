@@ -6,7 +6,7 @@ RUN chmod +x fnm
 
 FROM {% block image_from %}php:{{ phpVersion }}-cli{% endblock %}
 
-LABEL org.opencontainers.image.source https://github.com/shyim/shopware-docker
+LABEL org.opencontainers.image.source https://github.com/daniel-memo-ict/shopware-docker
 ENV XDEBUG_MODE=debug \
     SMTP_ADDRESS=smtp:1025
 ENV PS1 '${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u\[\033[01;33m\]@\[\033[01;36m\]\h \[\033[01;33m\]\w \[\033[01;35m\]\$ \[\033[00m\]'

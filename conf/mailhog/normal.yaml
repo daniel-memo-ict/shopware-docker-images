@@ -2,7 +2,7 @@ images:
   -
     name: Mailhog
     image: 
-       - ghcr.io/shyim/shopware-docker/mailhog
+       - ghcr.io/daniel-memo-ict/shopware-docker/mailhog
     buildTags: [ 'mailhog' ]
     dockerFile: mailhog/Dockerfile
     context: mailhog

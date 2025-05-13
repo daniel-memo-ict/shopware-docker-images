@@ -1,6 +1,6 @@
 FROM adminer
 
-LABEL org.opencontainers.image.source https://github.com/shyim/shopware-docker
+LABEL org.opencontainers.image.source https://github.com/daniel-memo-ict/shopware-docker
 
 USER root
 COPY patch.php /tmp/patch.php

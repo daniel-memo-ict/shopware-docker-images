@@ -1,7 +1,7 @@
 images:
   -
     image: 
-      - ghcr.io/shyim/shopware-docker/cli
+      - ghcr.io/daniel-memo-ict/shopware-docker/cli
     buildTags: [ 'cli' ]
     dockerFile: cli/Dockerfile
     context: cli 
@@ -25,7 +25,7 @@ images:
         phpVersionNumeric: 84
   -
     image: 
-      - ghcr.io/shyim/shopware-docker/cli
+      - ghcr.io/daniel-memo-ict/shopware-docker/cli
     buildTags: [ 'cli-xdebug' ]
     dockerFile: cli/Dockerfile
     context: cli

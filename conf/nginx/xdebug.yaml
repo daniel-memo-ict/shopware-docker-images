@@ -1,7 +1,7 @@
 images:
   -
     image: 
-      - ghcr.io/shyim/shopware-docker/5/nginx
+      - ghcr.io/daniel-memo-ict/shopware-docker/5/nginx
     buildTags: [ 'xdebug' ]
     dockerFile: nginx/Dockerfile
     context: nginx 
@@ -20,7 +20,7 @@ images:
         phpVersionNumeric: 81
   -
     image: 
-      - ghcr.io/shyim/shopware-docker/6/nginx
+      - ghcr.io/daniel-memo-ict/shopware-docker/6/nginx
     buildTags: [ 'xdebug' ]
     dockerFile: nginx/Dockerfile
     context: nginx 
