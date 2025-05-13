@@ -2,7 +2,7 @@ images:
   -
     image: 
       - ghcr.io/shyim/shopware-docker/5/nginx
-    buildTags: [ 'nginx' ]
+    buildTags: [ 'dev' ]
     dockerFile: nginx/Dockerfile
     context: nginx
     variables:
@@ -20,7 +20,7 @@ images:
   -
     image: 
       - ghcr.io/shyim/shopware-docker/6/nginx
-    buildTags: [ 'nginx' ]
+    buildTags: [ 'dev' ]
     dockerFile: nginx/Dockerfile
     context: nginx
     variables:

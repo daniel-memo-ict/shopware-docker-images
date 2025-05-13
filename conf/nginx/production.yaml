@@ -15,6 +15,9 @@ images:
       php80:
         phpVersion: '8.0'
         phpVersionNumeric: 80
+      php81:
+        phpVersion: '8.1'
+        phpVersionNumeric: 81
   -
     image: 
       - ghcr.io/shyim/shopware-docker/6/nginx-production
@@ -37,3 +40,9 @@ images:
       php82:
         phpVersion: '8.2'
         phpVersionNumeric: 82
+      php83:
+        phpVersion: '8.3'
+        phpVersionNumeric: 83
+      php84:
+        phpVersion: '8.4'
+        phpVersionNumeric: 84
