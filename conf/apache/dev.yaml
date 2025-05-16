@@ -11,6 +11,15 @@ images:
       apache/Dockerfile.twig: apache/Dockerfile
       apache/classic-vhost.conf: apache/rootfs/etc/apache2/conf.d/vhost.conf
     tags:
+      php72:
+        phpVersion: '7.2'
+        phpVersionNumeric: 72
+      php73:
+        phpVersion: '7.3'
+        phpVersionNumeric: 73
+      php74:
+        phpVersion: '7.4'
+        phpVersionNumeric: 74
       php80:
         phpVersion: '8.0'
         phpVersionNumeric: 80
@@ -29,6 +38,15 @@ images:
       apache/Dockerfile.twig: apache/Dockerfile
       apache/platform-vhost.conf: apache/rootfs/etc/apache2/conf.d/vhost.conf
     tags:
+      php72:
+        phpVersion: '7.2'
+        phpVersionNumeric: 72
+      php73:
+        phpVersion: '7.3'
+        phpVersionNumeric: 73
+      php74:
+        phpVersion: '7.4'
+        phpVersionNumeric: 74
       php80:
         phpVersion: '8.0'
         phpVersionNumeric: 80
