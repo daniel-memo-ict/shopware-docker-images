@@ -13,8 +13,7 @@ ENV PS1 '${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u\[\033[01;33m\]@\[\0
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/bin/
 COPY --from=ghcr.io/shyim/shopware-docker/sendmail /sendmail /usr/bin/sendmail
 COPY --from=shopware/shopware-cli:bin /shopware-cli /usr/local/bin/shopware-cli
-COPY --from=composer:1 /usr/bin/composer /usr/bin/composer-native-1
-COPY --from=composer:2 /usr/bin/composer /usr/bin/composer-native-2
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 ENV PHP_DUMP_SERVER_URL=http://dump-server:9009
 
