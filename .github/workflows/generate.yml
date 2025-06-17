@@ -34,7 +34,7 @@ jobs:
       run: |
         npm install
         strategy="$(node build.js generateJobs)"
-        echo "::set-output name=strategy::$strategy"
+        echo "strategy=$strategy" >> $GITHUB_OUTPUT
 
   build-amd64:
     needs: generate-jobs
