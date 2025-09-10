@@ -10,4 +10,20 @@ images:
       mysql/dev.twig: mysql/dev.cnf
     tags:
       8:
-        mysqlVersion: '8'
+        version: '8.0'
+        versionNumeric: 80
+      80:
+        version: '8.0'
+        versionNumeric: 80
+      81:
+        version: '8.1'
+        versionNumeric: 81
+      82:
+        version: '8.2'
+        versionNumeric: 82
+      83:
+        version: '8.3'
+        versionNumeric: 83
+      84:
+        version: '8.4'
+        versionNumeric: 84
