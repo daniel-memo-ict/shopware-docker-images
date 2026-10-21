@@ -1,24 +1,6 @@
 images:
   -
     image: 
-      - ghcr.io/daniel-memo-ict/shopware-docker/5/apache
-    buildTags: [ 'apache' ]
-    dockerFile: apache/Dockerfile
-    context: apache
-    variables:
-      APP_DOCUMENT_ROOT: '/var/www/html'
-    templates:
-      apache/Dockerfile.twig: apache/Dockerfile
-      apache/classic-vhost.conf: apache/rootfs/etc/apache2/conf.d/vhost.conf
-    tags:
-      php80:
-        phpVersion: '8.0'
-        phpVersionNumeric: 80
-      php81:
-        phpVersion: '8.1'
-        phpVersionNumeric: 81
-  -
-    image: 
       - ghcr.io/daniel-memo-ict/shopware-docker/6/apache
     buildTags: [ 'apache' ]
     dockerFile: apache/Dockerfile

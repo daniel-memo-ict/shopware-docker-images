@@ -1,25 +1,6 @@
 images:
   -
     image: 
-      - ghcr.io/daniel-memo-ict/shopware-docker/5/nginx
-    buildTags: [ 'xdebug' ]
-    dockerFile: nginx/Dockerfile
-    context: nginx 
-    templates:
-      nginx/Dockerfile.twig: nginx/Dockerfile
-      nginx/10-classic.conf: nginx/rootfs/etc/nginx/sites-enabled/www.conf
-    variables:
-      xdebug: 3
-      APP_DOCUMENT_ROOT: '/var/www/html'
-    tags:
-      php80-xdebug:
-        phpVersion: '8.0'
-        phpVersionNumeric: 80
-      php81-xdebug:
-        phpVersion: '8.1'
-        phpVersionNumeric: 81
-  -
-    image: 
       - ghcr.io/daniel-memo-ict/shopware-docker/6/nginx
     buildTags: [ 'xdebug' ]
     dockerFile: nginx/Dockerfile

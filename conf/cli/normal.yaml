@@ -8,12 +8,6 @@ images:
     templates:
       cli/Dockerfile.twig: cli/Dockerfile
     tags:
-      php80:
-        phpVersion: '8.0'
-        phpVersionNumeric: 80
-      php81:
-        phpVersion: '8.1'
-        phpVersionNumeric: 81
       php82:
         phpVersion: '8.2'
         phpVersionNumeric: 82
@@ -34,12 +28,6 @@ images:
     templates:
       cli/Dockerfile.twig: cli/Dockerfile
     tags:
-      php80-xdebug:
-        phpVersion: '8.0'
-        phpVersionNumeric: 80
-      php81-xdebug:
-        phpVersion: '8.1'
-        phpVersionNumeric: 81
       php82-xdebug:
         phpVersion: '8.2'
         phpVersionNumeric: 82
