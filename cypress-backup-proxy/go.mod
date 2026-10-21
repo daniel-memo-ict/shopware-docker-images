@@ -1,6 +1,6 @@
 module cypress-backup-proxy
 
-go 1.23.0
+go 1.23
 
 require github.com/docker/docker v28.0.0+incompatible
 
